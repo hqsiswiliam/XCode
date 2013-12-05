@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D1EE586184FC7DD000C8959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1EE585184FC7DD000C8959 /* Foundation.framework */; };
+		4D1EE588184FC7DD000C8959 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1EE587184FC7DD000C8959 /* CoreGraphics.framework */; };
+		4D1EE58A184FC7DD000C8959 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1EE589184FC7DD000C8959 /* UIKit.framework */; };
+		4D1EE590184FC7DD000C8959 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D1EE58E184FC7DD000C8959 /* InfoPlist.strings */; };
+		4D1EE592184FC7DD000C8959 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1EE591184FC7DD000C8959 /* main.m */; };
+		4D1EE596184FC7DD000C8959 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1EE595184FC7DD000C8959 /* AppDelegate.m */; };
+		4D1EE599184FC7DD000C8959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1EE597184FC7DD000C8959 /* Main.storyboard */; };
+		4D1EE59C184FC7DD000C8959 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1EE59B184FC7DD000C8959 /* ViewController.m */; };
+		4D1EE59E184FC7DD000C8959 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1EE59D184FC7DD000C8959 /* Images.xcassets */; };
+		4D1EE5A5184FC7DD000C8959 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1EE5A4184FC7DD000C8959 /* XCTest.framework */; };
+		4D1EE5A6184FC7DD000C8959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1EE585184FC7DD000C8959 /* Foundation.framework */; };
+		4D1EE5A7184FC7DD000C8959 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1EE589184FC7DD000C8959 /* UIKit.framework */; };
+		4D1EE5AF184FC7DD000C8959 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D1EE5AD184FC7DD000C8959 /* InfoPlist.strings */; };
+		4D1EE5B1184FC7DD000C8959 /* DataPickerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1EE5B0184FC7DD000C8959 /* DataPickerDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D1EE5A8184FC7DD000C8959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D1EE57A184FC7DD000C8959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D1EE581184FC7DD000C8959;
+			remoteInfo = DataPickerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D1EE582184FC7DD000C8959 /* DataPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1EE585184FC7DD000C8959 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D1EE587184FC7DD000C8959 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D1EE589184FC7DD000C8959 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D1EE58D184FC7DD000C8959 /* DataPickerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DataPickerDemo-Info.plist"; sourceTree = "<group>"; };
+		4D1EE58F184FC7DD000C8959 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D1EE591184FC7DD000C8959 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D1EE593184FC7DD000C8959 /* DataPickerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataPickerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		4D1EE594184FC7DD000C8959 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D1EE595184FC7DD000C8959 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D1EE598184FC7DD000C8959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D1EE59A184FC7DD000C8959 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D1EE59B184FC7DD000C8959 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D1EE59D184FC7DD000C8959 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D1EE5A3184FC7DD000C8959 /* DataPickerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataPickerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1EE5A4184FC7DD000C8959 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4D1EE5AC184FC7DD000C8959 /* DataPickerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DataPickerDemoTests-Info.plist"; sourceTree = "<group>"; };
+		4D1EE5AE184FC7DD000C8959 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D1EE5B0184FC7DD000C8959 /* DataPickerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataPickerDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D1EE57F184FC7DD000C8959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1EE588184FC7DD000C8959 /* CoreGraphics.framework in Frameworks */,
+				4D1EE58A184FC7DD000C8959 /* UIKit.framework in Frameworks */,
+				4D1EE586184FC7DD000C8959 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1EE5A0184FC7DD000C8959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1EE5A5184FC7DD000C8959 /* XCTest.framework in Frameworks */,
+				4D1EE5A7184FC7DD000C8959 /* UIKit.framework in Frameworks */,
+				4D1EE5A6184FC7DD000C8959 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D1EE579184FC7DC000C8959 = {
+			isa = PBXGroup;
+			children = (
+				4D1EE58B184FC7DD000C8959 /* DataPickerDemo */,
+				4D1EE5AA184FC7DD000C8959 /* DataPickerDemoTests */,
+				4D1EE584184FC7DD000C8959 /* Frameworks */,
+				4D1EE583184FC7DD000C8959 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D1EE583184FC7DD000C8959 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D1EE582184FC7DD000C8959 /* DataPickerDemo.app */,
+				4D1EE5A3184FC7DD000C8959 /* DataPickerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D1EE584184FC7DD000C8959 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D1EE585184FC7DD000C8959 /* Foundation.framework */,
+				4D1EE587184FC7DD000C8959 /* CoreGraphics.framework */,
+				4D1EE589184FC7DD000C8959 /* UIKit.framework */,
+				4D1EE5A4184FC7DD000C8959 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D1EE58B184FC7DD000C8959 /* DataPickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4D1EE594184FC7DD000C8959 /* AppDelegate.h */,
+				4D1EE595184FC7DD000C8959 /* AppDelegate.m */,
+				4D1EE597184FC7DD000C8959 /* Main.storyboard */,
+				4D1EE59A184FC7DD000C8959 /* ViewController.h */,
+				4D1EE59B184FC7DD000C8959 /* ViewController.m */,
+				4D1EE59D184FC7DD000C8959 /* Images.xcassets */,
+				4D1EE58C184FC7DD000C8959 /* Supporting Files */,
+			);
+			path = DataPickerDemo;
+			sourceTree = "<group>";
+		};
+		4D1EE58C184FC7DD000C8959 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D1EE58D184FC7DD000C8959 /* DataPickerDemo-Info.plist */,
+				4D1EE58E184FC7DD000C8959 /* InfoPlist.strings */,
+				4D1EE591184FC7DD000C8959 /* main.m */,
+				4D1EE593184FC7DD000C8959 /* DataPickerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D1EE5AA184FC7DD000C8959 /* DataPickerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D1EE5B0184FC7DD000C8959 /* DataPickerDemoTests.m */,
+				4D1EE5AB184FC7DD000C8959 /* Supporting Files */,
+			);
+			path = DataPickerDemoTests;
+			sourceTree = "<group>";
+		};
+		4D1EE5AB184FC7DD000C8959 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D1EE5AC184FC7DD000C8959 /* DataPickerDemoTests-Info.plist */,
+				4D1EE5AD184FC7DD000C8959 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D1EE581184FC7DD000C8959 /* DataPickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D1EE5B4184FC7DD000C8959 /* Build configuration list for PBXNativeTarget "DataPickerDemo" */;
+			buildPhases = (
+				4D1EE57E184FC7DD000C8959 /* Sources */,
+				4D1EE57F184FC7DD000C8959 /* Frameworks */,
+				4D1EE580184FC7DD000C8959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataPickerDemo;
+			productName = DataPickerDemo;
+			productReference = 4D1EE582184FC7DD000C8959 /* DataPickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D1EE5A2184FC7DD000C8959 /* DataPickerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D1EE5B7184FC7DD000C8959 /* Build configuration list for PBXNativeTarget "DataPickerDemoTests" */;
+			buildPhases = (
+				4D1EE59F184FC7DD000C8959 /* Sources */,
+				4D1EE5A0184FC7DD000C8959 /* Frameworks */,
+				4D1EE5A1184FC7DD000C8959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D1EE5A9184FC7DD000C8959 /* PBXTargetDependency */,
+			);
+			name = DataPickerDemoTests;
+			productName = DataPickerDemoTests;
+			productReference = 4D1EE5A3184FC7DD000C8959 /* DataPickerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D1EE57A184FC7DD000C8959 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "H QS";
+				TargetAttributes = {
+					4D1EE5A2184FC7DD000C8959 = {
+						TestTargetID = 4D1EE581184FC7DD000C8959;
+					};
+				};
+			};
+			buildConfigurationList = 4D1EE57D184FC7DD000C8959 /* Build configuration list for PBXProject "DataPickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D1EE579184FC7DC000C8959;
+			productRefGroup = 4D1EE583184FC7DD000C8959 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D1EE581184FC7DD000C8959 /* DataPickerDemo */,
+				4D1EE5A2184FC7DD000C8959 /* DataPickerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D1EE580184FC7DD000C8959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1EE59E184FC7DD000C8959 /* Images.xcassets in Resources */,
+				4D1EE590184FC7DD000C8959 /* InfoPlist.strings in Resources */,
+				4D1EE599184FC7DD000C8959 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1EE5A1184FC7DD000C8959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1EE5AF184FC7DD000C8959 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D1EE57E184FC7DD000C8959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1EE59C184FC7DD000C8959 /* ViewController.m in Sources */,
+				4D1EE596184FC7DD000C8959 /* AppDelegate.m in Sources */,
+				4D1EE592184FC7DD000C8959 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1EE59F184FC7DD000C8959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1EE5B1184FC7DD000C8959 /* DataPickerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D1EE5A9184FC7DD000C8959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D1EE581184FC7DD000C8959 /* DataPickerDemo */;
+			targetProxy = 4D1EE5A8184FC7DD000C8959 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D1EE58E184FC7DD000C8959 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D1EE58F184FC7DD000C8959 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D1EE597184FC7DD000C8959 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D1EE598184FC7DD000C8959 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D1EE5AD184FC7DD000C8959 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D1EE5AE184FC7DD000C8959 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D1EE5B2184FC7DD000C8959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D1EE5B3184FC7DD000C8959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D1EE5B5184FC7DD000C8959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataPickerDemo/DataPickerDemo-Prefix.pch";
+				INFOPLIST_FILE = "DataPickerDemo/DataPickerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D1EE5B6184FC7DD000C8959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataPickerDemo/DataPickerDemo-Prefix.pch";
+				INFOPLIST_FILE = "DataPickerDemo/DataPickerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4D1EE5B8184FC7DD000C8959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DataPickerDemo.app/DataPickerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataPickerDemo/DataPickerDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DataPickerDemoTests/DataPickerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4D1EE5B9184FC7DD000C8959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DataPickerDemo.app/DataPickerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataPickerDemo/DataPickerDemo-Prefix.pch";
+				INFOPLIST_FILE = "DataPickerDemoTests/DataPickerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D1EE57D184FC7DD000C8959 /* Build configuration list for PBXProject "DataPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1EE5B2184FC7DD000C8959 /* Debug */,
+				4D1EE5B3184FC7DD000C8959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D1EE5B4184FC7DD000C8959 /* Build configuration list for PBXNativeTarget "DataPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1EE5B5184FC7DD000C8959 /* Debug */,
+				4D1EE5B6184FC7DD000C8959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D1EE5B7184FC7DD000C8959 /* Build configuration list for PBXNativeTarget "DataPickerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1EE5B8184FC7DD000C8959 /* Debug */,
+				4D1EE5B9184FC7DD000C8959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D1EE57A184FC7DD000C8959 /* Project object */;
+}

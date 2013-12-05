@@ -21,13 +21,16 @@ int main(int argc, const char * argv[])
     
     float total = 0.00f;
     
-    for (long i=0; i<sizeof(gpa)/sizeof(gpa[0]); i++) {
-        printf("%ld GPA  is %.2f\n",i+1,gpa[i]);
-        total +=gpa[i];
-    }
-    
-    float average = total/(sizeof(gpa)/sizeof(gpa[0]));
-    printf("Average GPA is: %.2f\n", average);
+    printf("%p\n",gpa);
+    printf("%p\n",&gpa[1]);
+//    
+//    for (long i=0; i<sizeof(gpa)/sizeof(gpa[0]); i++) {
+//        printf("%ld GPA  is %.2f\n",i+1,gpa[i]);
+//        total +=gpa[i];
+//    }
+//    
+//    float average = total/(sizeof(gpa)/sizeof(gpa[0]));
+//    printf("Average GPA is: %.2f\n", average);
     
     
     return 0;
